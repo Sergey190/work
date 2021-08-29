@@ -1,0 +1,98 @@
+
+table.table-hover {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+
+    margin: auto; /* Выравниваем таблицу по центру окна  */
+
+
+}
+table.table-3 tr {
+		background-color: #f8f8f8;
+}
+
+table.table-3 th,
+table.table-3 td {
+
+		text-align: left;
+	 	padding: 8px;
+	border: 1px solid #ddd;
+}
+@media screen and (max-width: 600px) {
+  	table.table table-hover {
+		border: 0;
+  	}
+
+
+
+  
+  	table.table table-hover thead {
+
+	    border: none;
+	    clip: rect(0 0 0 0);
+	    height: 1px;
+	    margin: -1px;
+	    overflow: hidden;
+	    padding: 0;
+	    position: absolute;
+	    width: 1px;
+  	}
+  
+  	table.table table-hover tr {
+    	border-bottom: 1px solid #ddd;
+    	display: block;
+   		margin-bottom: 30px;
+  	}
+  
+	table.table table-hover td {
+    	display: block;
+    	text-align: right;
+	}
+
+	table.table table-hover td::before {
+	    content: attr(data-label);
+	    float: left;
+	    font-weight: bold;
+	    text-transform: uppercase;
+	}
+  
+  	table.table table-hover td:last-child {
+    	border-bottom: 0;
+  	}
+}
+
+@media screen and (max–width: 600px) {
+  table thead {
+    display: none;
+  }
+  table tr {
+    border–bottom: 3px solid #ddd;
+    display: block;
+  }
+  table td {
+    border–bottom: 1px solid #ddd;
+    display: block;
+    text–align: right;
+  }
+  table td:before {
+    content: attr(aria–label);
+    float: left;
+  }
+}
+
+
+.table-holder
+{
+  height:650px; /* высота нашего блока */
+background: #fff; /* цвет фона, белый */
+
+
+
+}
+}
+
+.table
+{
+   
+}
